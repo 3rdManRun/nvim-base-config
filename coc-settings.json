@@ -1,0 +1,27 @@
+{
+  "diagnostic.errorSign": "✖",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": "💡",
+  "diagnostic.checkCurrentLine": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "lua",
+    "json",
+    "jsonc",
+    "css",
+    "html",
+    "markdown",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "javascript.format.enabled": false,
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggestionActions.enabled": false,
+  "typescript.format.enabled": false,
+  "typescript.preferences.quoteStyle": "double",
+  "snippets.ultisnips.enable": false,
+  "sumneko-lua.enableNvimLuaDev": true,
+  "Lua.telemetry.enable": false
+}
