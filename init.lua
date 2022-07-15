@@ -32,6 +32,18 @@ require("packer").startup(function(use)
   use { "neoclide/jsonc.vim" }
 
   use { "honza/vim-snippets" }
+  use {
+    "ThePrimeagen/refactoring.nvim",
+
+    config = function()
+      require("refactoring").setup {}
+    end,
+
+    requires = {
+      { "nvim-lua/plenary.nvim" },
+      { "nvim-treesitter/nvim-treesitter" }
+    }
+  }
 
   use { "kana/vim-textobj-user" }
   use { "kana/vim-textobj-indent" }
@@ -86,6 +98,7 @@ vim.g.AutoPairs = {
 }
 
 require "edits"
+require "refactor"
 require "sets"
 require "keymaps"
 require "treesitter"
