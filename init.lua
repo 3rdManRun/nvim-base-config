@@ -31,6 +31,8 @@ require("packer").startup(function(use)
   use { "neoclide/coc.nvim", branch = "release" }
   use { "neoclide/jsonc.vim" }
 
+  use { "antonk52/vim-browserslist" }
+
   use { "honza/vim-snippets" }
   use {
     "ThePrimeagen/refactoring.nvim",
