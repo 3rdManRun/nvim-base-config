@@ -99,7 +99,6 @@ vim.g.AutoPairs = {
   ["<"] = ">",
 }
 
-require "edits"
 require "refactor"
 require "sets"
 require "keymaps"
